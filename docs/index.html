@@ -60,6 +60,18 @@
                         .groupAccountOperationsByDay
                       </a></li>
                     
+                      <li><a
+                        href='#accountgetbalancehistoryimpl'
+                        class='regular pre-open'>
+                        .getBalanceHistoryImpl
+                      </a></li>
+                    
+                      <li><a
+                        href='#accountgetportfolio'
+                        class='regular pre-open'>
+                        .getPortfolio
+                      </a></li>
+                    
                     </ul>
                   
                   
@@ -104,6 +116,18 @@
                         href='#accountgroupaccountoperationsbyday'
                         class='regular pre-open'>
                         .groupAccountOperationsByDay
+                      </a></li>
+                    
+                      <li><a
+                        href='#accountgetbalancehistoryimpl'
+                        class='regular pre-open'>
+                        .getBalanceHistoryImpl
+                      </a></li>
+                    
+                      <li><a
+                        href='#accountgetportfolio'
+                        class='regular pre-open'>
+                        .getPortfolio
                       </a></li>
                     
                     </ul>
@@ -285,9 +309,9 @@
               
                 
                 <li><a
-                  href='#bignumber'
+                  href='#portfolio'
                   class="">
-                  BigNumber
+                  portfolio
                   
                 </a>
                 
@@ -323,7 +347,7 @@
     </h3>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/account.js#L5-L5'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/account.js#L5-L5'>
       <span>src/account.js</span>
       </a>
     
@@ -371,7 +395,7 @@
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/account.js#L34-L59'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/account.js#L34-L59'>
       <span>src/account.js</span>
       </a>
     
@@ -454,7 +478,7 @@ The last item of the array is the balance available right now.</p>
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/account.js#L67-L100'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/account.js#L67-L100'>
       <span>src/account.js</span>
       </a>
     
@@ -466,7 +490,7 @@ and using a CalculateCounterValue function (see countervalue helper)
 NB the last item of the array is actually the current total balance.</p>
 
 
-  <div class='pre p1 fill-light mt0'>getBalanceHistorySum(accounts: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>&#x3C;Account>, daysCount: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, calculateAccountCounterValue: function (Account, <a href="#bignumber">BigNumber</a>, <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date">Date</a>): <a href="#bignumber">BigNumber</a>): BalanceHistory</div>
+  <div class='pre p1 fill-light mt0'>getBalanceHistorySum(accounts: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>&#x3C;Account>, daysCount: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, calculateAccountCounterValue: function (Account, BigNumber, <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date">Date</a>): BigNumber): BalanceHistory</div>
   
   
 
@@ -499,7 +523,7 @@ NB the last item of the array is actually the current total balance.</p>
       
         <div class='space-bottom0'>
           <div>
-            <span class='code bold'>calculateAccountCounterValue</span> <code class='quiet'>(function (Account, <a href="#bignumber">BigNumber</a>, <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date">Date</a>): <a href="#bignumber">BigNumber</a>)</code>
+            <span class='code bold'>calculateAccountCounterValue</span> <code class='quiet'>(function (Account, BigNumber, <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date">Date</a>): BigNumber)</code>
 	    
           </div>
           
@@ -545,7 +569,7 @@ NB the last item of the array is actually the current total balance.</p>
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/account.js#L107-L163'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/account.js#L107-L163'>
       <span>src/account.js</span>
       </a>
     
@@ -625,7 +649,7 @@ NB the last item of the array is actually the current total balance.</p>
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/account.js#L169-L174'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/account.js#L169-L174'>
       <span>src/account.js</span>
       </a>
     
@@ -692,6 +716,180 @@ NB the last item of the array is actually the current total balance.</p>
       </div>
     </div>
   
+    <div class='border-bottom' id='accountgetbalancehistoryimpl'>
+      <div class="clearfix small pointer toggle-sibling">
+        <div class="py1 contain">
+            <a class='icon pin-right py1 dark-link caret-right'>▸</a>
+            <span class='code strong strong truncate'>getBalanceHistoryImpl</span>
+        </div>
+      </div>
+      <div class="clearfix display-none toggle-target">
+        <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/portfolio.js#L63-L86'>
+      <span>src/portfolio.js</span>
+      </a>
+    
+  </div>
+  
+
+  <p>generate an array of {daysCount} datapoints, one per day,
+for the balance history of an account.
+The last item of the array is the balance available right now.</p>
+
+
+  <div class='pre p1 fill-light mt0'>getBalanceHistoryImpl</div>
+  
+    <p>
+      Type:
+      GetBalanceHistory
+    </p>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>account</span> <code class='quiet'>(any)</code>
+	    
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>r</span> <code class='quiet'>(any)</code>
+	    
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='border-bottom' id='accountgetportfolio'>
+      <div class="clearfix small pointer toggle-sibling">
+        <div class="py1 contain">
+            <a class='icon pin-right py1 dark-link caret-right'>▸</a>
+            <span class='code strong strong truncate'>getPortfolio(accounts, range, calc)</span>
+        </div>
+      </div>
+      <div class="clearfix display-none toggle-target">
+        <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/portfolio.js#L144-L177'>
+      <span>src/portfolio.js</span>
+      </a>
+    
+  </div>
+  
+
+  <p>calculate the total balance history for all accounts in a reference fiat unit
+and using a CalculateCounterValue function (see countervalue helper)
+NB the last item of the array is actually the current total balance.</p>
+
+
+  <div class='pre p1 fill-light mt0'>getPortfolio(accounts: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>&#x3C;Account>, range: PortfolioRange, calc: function (Account, BigNumber, <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date">Date</a>): BigNumber?): Portfolio</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>accounts</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>&#x3C;Account>)</code>
+	    
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>range</span> <code class='quiet'>(PortfolioRange)</code>
+	    
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>calc</span> <code class='quiet'>(function (Account, BigNumber, <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date">Date</a>): BigNumber?)</code>
+	    
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+    
+      <div class='py1 quiet mt1 prose-big'>Returns</div>
+      <code>Portfolio</code>
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
 </div>
 
   
@@ -714,7 +912,7 @@ NB the last item of the array is actually the current total balance.</p>
     </h3>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/operation.js#L6-L6'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/operation.js#L6-L6'>
       <span>src/operation.js</span>
       </a>
     
@@ -762,7 +960,7 @@ NB the last item of the array is actually the current total balance.</p>
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/account.js#L34-L59'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/account.js#L34-L59'>
       <span>src/account.js</span>
       </a>
     
@@ -845,7 +1043,7 @@ The last item of the array is the balance available right now.</p>
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/account.js#L67-L100'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/account.js#L67-L100'>
       <span>src/account.js</span>
       </a>
     
@@ -857,7 +1055,7 @@ and using a CalculateCounterValue function (see countervalue helper)
 NB the last item of the array is actually the current total balance.</p>
 
 
-  <div class='pre p1 fill-light mt0'>getBalanceHistorySum(accounts: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>&#x3C;Account>, daysCount: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, calculateAccountCounterValue: function (Account, <a href="#bignumber">BigNumber</a>, <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date">Date</a>): <a href="#bignumber">BigNumber</a>): BalanceHistory</div>
+  <div class='pre p1 fill-light mt0'>getBalanceHistorySum(accounts: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>&#x3C;Account>, daysCount: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number">number</a>, calculateAccountCounterValue: function (Account, BigNumber, <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date">Date</a>): BigNumber): BalanceHistory</div>
   
   
 
@@ -890,7 +1088,7 @@ NB the last item of the array is actually the current total balance.</p>
       
         <div class='space-bottom0'>
           <div>
-            <span class='code bold'>calculateAccountCounterValue</span> <code class='quiet'>(function (Account, <a href="#bignumber">BigNumber</a>, <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date">Date</a>): <a href="#bignumber">BigNumber</a>)</code>
+            <span class='code bold'>calculateAccountCounterValue</span> <code class='quiet'>(function (Account, BigNumber, <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date">Date</a>): BigNumber)</code>
 	    
           </div>
           
@@ -936,7 +1134,7 @@ NB the last item of the array is actually the current total balance.</p>
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/account.js#L107-L163'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/account.js#L107-L163'>
       <span>src/account.js</span>
       </a>
     
@@ -1016,7 +1214,7 @@ NB the last item of the array is actually the current total balance.</p>
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/account.js#L169-L174'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/account.js#L169-L174'>
       <span>src/account.js</span>
       </a>
     
@@ -1083,6 +1281,180 @@ NB the last item of the array is actually the current total balance.</p>
       </div>
     </div>
   
+    <div class='border-bottom' id='accountgetbalancehistoryimpl'>
+      <div class="clearfix small pointer toggle-sibling">
+        <div class="py1 contain">
+            <a class='icon pin-right py1 dark-link caret-right'>▸</a>
+            <span class='code strong strong truncate'>getBalanceHistoryImpl</span>
+        </div>
+      </div>
+      <div class="clearfix display-none toggle-target">
+        <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/portfolio.js#L63-L86'>
+      <span>src/portfolio.js</span>
+      </a>
+    
+  </div>
+  
+
+  <p>generate an array of {daysCount} datapoints, one per day,
+for the balance history of an account.
+The last item of the array is the balance available right now.</p>
+
+
+  <div class='pre p1 fill-light mt0'>getBalanceHistoryImpl</div>
+  
+    <p>
+      Type:
+      GetBalanceHistory
+    </p>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>account</span> <code class='quiet'>(any)</code>
+	    
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>r</span> <code class='quiet'>(any)</code>
+	    
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
+    <div class='border-bottom' id='accountgetportfolio'>
+      <div class="clearfix small pointer toggle-sibling">
+        <div class="py1 contain">
+            <a class='icon pin-right py1 dark-link caret-right'>▸</a>
+            <span class='code strong strong truncate'>getPortfolio(accounts, range, calc)</span>
+        </div>
+      </div>
+      <div class="clearfix display-none toggle-target">
+        <section class='p2 mb2 clearfix bg-white minishadow'>
+
+  
+  <div class='clearfix'>
+    
+    
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/portfolio.js#L144-L177'>
+      <span>src/portfolio.js</span>
+      </a>
+    
+  </div>
+  
+
+  <p>calculate the total balance history for all accounts in a reference fiat unit
+and using a CalculateCounterValue function (see countervalue helper)
+NB the last item of the array is actually the current total balance.</p>
+
+
+  <div class='pre p1 fill-light mt0'>getPortfolio(accounts: <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>&#x3C;Account>, range: PortfolioRange, calc: function (Account, BigNumber, <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date">Date</a>): BigNumber?): Portfolio</div>
+  
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+    <div class='py1 quiet mt1 prose-big'>Parameters</div>
+    <div class='prose'>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>accounts</span> <code class='quiet'>(<a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array">Array</a>&#x3C;Account>)</code>
+	    
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>range</span> <code class='quiet'>(PortfolioRange)</code>
+	    
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>calc</span> <code class='quiet'>(function (Account, BigNumber, <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date">Date</a>): BigNumber?)</code>
+	    
+          </div>
+          
+        </div>
+      
+    </div>
+  
+
+  
+
+  
+    
+      <div class='py1 quiet mt1 prose-big'>Returns</div>
+      <code>Portfolio</code>
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</section>
+
+      </div>
+    </div>
+  
 </div>
 
   
@@ -1105,7 +1477,7 @@ NB the last item of the array is actually the current total balance.</p>
     </h3>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/api/socket.js#L64-L263'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/api/socket.js#L64-L263'>
       <span>src/api/socket.js</span>
       </a>
     
@@ -1215,7 +1587,7 @@ Returns an Observable of the final result</p>
     </h3>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/countervalues/index.js#L55-L56'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/countervalues/index.js#L55-L56'>
       <span>src/countervalues/index.js</span>
       </a>
     
@@ -1279,7 +1651,7 @@ Returns an Observable of the final result</p>
     </h3>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/currencies/valueFromUnit.js#L10-L11'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/currencies/valueFromUnit.js#L10-L11'>
       <span>src/currencies/valueFromUnit.js</span>
       </a>
     
@@ -1307,7 +1679,7 @@ For instance, for 1 BTC, valueFromUnit(1, btcUnit) returns 100000000</p>
       
         <div class='space-bottom0'>
           <div>
-            <span class='code bold'>valueInUnit</span> <code class='quiet'>(<a href="#bignumber">BigNumber</a>)</code>
+            <span class='code bold'>valueInUnit</span> <code class='quiet'>(BigNumber)</code>
 	    
           </div>
           
@@ -1352,7 +1724,7 @@ For instance, for 1 BTC, valueFromUnit(1, btcUnit) returns 100000000</p>
     </h3>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/currencies/formatShort.js#L11-L22'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/currencies/formatShort.js#L11-L22'>
       <span>src/currencies/formatShort.js</span>
       </a>
     
@@ -1363,7 +1735,7 @@ For instance, for 1 BTC, valueFromUnit(1, btcUnit) returns 100000000</p>
 For instance 15k 20k ,...</p>
 
 
-  <div class='pre p1 fill-light mt0'>formatShort(unit: <a href="#unit">Unit</a>, value: <a href="#bignumber">BigNumber</a>): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></div>
+  <div class='pre p1 fill-light mt0'>formatShort(unit: <a href="#unit">Unit</a>, value: BigNumber): <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></div>
   
   
 
@@ -1388,7 +1760,7 @@ For instance 15k 20k ,...</p>
       
         <div class='space-bottom0'>
           <div>
-            <span class='code bold'>value</span> <code class='quiet'>(<a href="#bignumber">BigNumber</a>)</code>
+            <span class='code bold'>value</span> <code class='quiet'>(BigNumber)</code>
 	    
           </div>
           
@@ -1430,7 +1802,7 @@ For instance 15k 20k ,...</p>
     </h3>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/data/cryptocurrencies.js#L35-L35'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/data/cryptocurrencies.js#L35-L35'>
       <span>src/data/cryptocurrencies.js</span>
       </a>
     
@@ -1504,7 +1876,7 @@ Either add one by respecting the other icons convention, or ask us and we will h
     </h3>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/DataModel.js#L10-L18'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/DataModel.js#L10-L18'>
       <span>src/DataModel.js</span>
       </a>
     
@@ -1552,7 +1924,7 @@ Either add one by respecting the other icons convention, or ask us and we will h
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/DataModel.js#L6-L9'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/DataModel.js#L6-L9'>
       <span>src/DataModel.js</span>
       </a>
     
@@ -1635,7 +2007,7 @@ Either add one by respecting the other icons convention, or ask us and we will h
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/DataModel.js#L20-L23'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/DataModel.js#L20-L23'>
       <span>src/DataModel.js</span>
       </a>
     
@@ -1718,7 +2090,7 @@ Either add one by respecting the other icons convention, or ask us and we will h
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/DataModel.js#L36-L54'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/DataModel.js#L36-L54'>
       <span>src/DataModel.js</span>
       </a>
     
@@ -1798,7 +2170,7 @@ Either add one by respecting the other icons convention, or ask us and we will h
     </h3>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/derivation.js#L116-L132'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/derivation.js#L116-L132'>
       <span>src/derivation.js</span>
       </a>
     
@@ -1900,7 +2272,7 @@ for a given currency and derivationMode (you can pass an Account because same sh
     </h3>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/hw/getFirmwareInfo.js#L16-L53'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/hw/getFirmwareInfo.js#L16-L53'>
       <span>src/hw/getFirmwareInfo.js</span>
       </a>
     
@@ -1969,7 +2341,7 @@ for a given currency and derivationMode (you can pass an Account because same sh
     </h3>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/mock/account.js#L5-L5'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/mock/account.js#L5-L5'>
       <span>src/mock/account.js</span>
       </a>
     
@@ -2017,7 +2389,7 @@ for a given currency and derivationMode (you can pass an Account because same sh
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/mock/account.js#L35-L38'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/mock/account.js#L44-L47'>
       <span>src/mock/account.js</span>
       </a>
     
@@ -2084,7 +2456,7 @@ for a given currency and derivationMode (you can pass an Account because same sh
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/mock/account.js#L43-L45'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/mock/account.js#L52-L54'>
       <span>src/mock/account.js</span>
       </a>
     
@@ -2159,7 +2531,7 @@ for a given currency and derivationMode (you can pass an Account because same sh
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/mock/account.js#L50-L55'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/mock/account.js#L59-L67'>
       <span>src/mock/account.js</span>
       </a>
     
@@ -2168,7 +2540,7 @@ for a given currency and derivationMode (you can pass an Account because same sh
 
   
 
-  <div class='pre p1 fill-light mt0'>genAddress(currency: CryptoCurrency, rng: Prando)</div>
+  <div class='pre p1 fill-light mt0'>genAddress(currency: (CryptoCurrency | TokenCurrency), rng: Prando)</div>
   
   
 
@@ -2185,7 +2557,7 @@ for a given currency and derivationMode (you can pass an Account because same sh
       
         <div class='space-bottom0'>
           <div>
-            <span class='code bold'>currency</span> <code class='quiet'>(CryptoCurrency)</code>
+            <span class='code bold'>currency</span> <code class='quiet'>((CryptoCurrency | TokenCurrency))</code>
 	    
           </div>
           
@@ -2224,7 +2596,7 @@ for a given currency and derivationMode (you can pass an Account because same sh
       <div class="clearfix small pointer toggle-sibling">
         <div class="py1 contain">
             <a class='icon pin-right py1 dark-link caret-right'>▸</a>
-            <span class='code strong strong truncate'>genOperation(account, ops, currency, rng)</span>
+            <span class='code strong strong truncate'>genOperation(superAccount, account, ops, currency, rng)</span>
         </div>
       </div>
       <div class="clearfix display-none toggle-target">
@@ -2234,7 +2606,7 @@ for a given currency and derivationMode (you can pass an Account because same sh
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/mock/account.js#L61-L98'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/mock/account.js#L73-L112'>
       <span>src/mock/account.js</span>
       </a>
     
@@ -2243,7 +2615,7 @@ for a given currency and derivationMode (you can pass an Account because same sh
 
   
 
-  <div class='pre p1 fill-light mt0'>genOperation(account: Account, ops: any, currency: CryptoCurrency, rng: Prando): $Exact&#x3C;Operation></div>
+  <div class='pre p1 fill-light mt0'>genOperation(superAccount: Account, account: (Account | TokenAccount), ops: any, currency: (CryptoCurrency | TokenCurrency), rng: Prando): $Exact&#x3C;Operation></div>
   
   
 
@@ -2260,7 +2632,15 @@ for a given currency and derivationMode (you can pass an Account because same sh
       
         <div class='space-bottom0'>
           <div>
-            <span class='code bold'>account</span> <code class='quiet'>(Account)</code>
+            <span class='code bold'>superAccount</span> <code class='quiet'>(Account)</code>
+	    
+          </div>
+          
+        </div>
+      
+        <div class='space-bottom0'>
+          <div>
+            <span class='code bold'>account</span> <code class='quiet'>((Account | TokenAccount))</code>
 	    
           </div>
           
@@ -2276,7 +2656,7 @@ for a given currency and derivationMode (you can pass an Account because same sh
       
         <div class='space-bottom0'>
           <div>
-            <span class='code bold'>currency</span> <code class='quiet'>(CryptoCurrency)</code>
+            <span class='code bold'>currency</span> <code class='quiet'>((CryptoCurrency | TokenCurrency))</code>
 	    
           </div>
           
@@ -2330,7 +2710,7 @@ for a given currency and derivationMode (you can pass an Account because same sh
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/mock/account.js#L103-L118'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/mock/account.js#L117-L132'>
       <span>src/mock/account.js</span>
       </a>
     
@@ -2418,7 +2798,7 @@ for a given currency and derivationMode (you can pass an Account because same sh
   <div class='clearfix'>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/mock/account.js#L120-L123'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/mock/account.js#L134-L137'>
       <span>src/mock/account.js</span>
       </a>
     
@@ -2511,27 +2891,21 @@ for a given currency and derivationMode (you can pass an Account because same sh
   
   <div class='clearfix'>
     
-    <h3 class='fl m0' id='bignumber'>
-      BigNumber
+    <h3 class='fl m0' id='portfolio'>
+      portfolio
     </h3>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/types/index.js#L37-L37'>
-      <span>src/types/index.js</span>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/portfolio.js#L5-L5'>
+      <span>src/portfolio.js</span>
       </a>
     
   </div>
   
 
-  <p>Common models types
-===================</p>
-<p>Reference types to inspire from as this will comes from the libcore:
-<a href="https://github.com/KhalilBellakrid/lib-ledger-core/tree/develop/core/src/api">https://github.com/KhalilBellakrid/lib-ledger-core/tree/develop/core/src/api</a></p>
-<p>NB some bug in documentation w\ flowtypes <a href="https://github.com/documentationjs/documentation/issues/742">https://github.com/documentationjs/documentation/issues/742</a>
-^as soon as fixed, will use /** in the types properties to export doc</p>
+  
 
-
-  <div class='pre p1 fill-light mt0'>BigNumber</div>
+  <div class='pre p1 fill-light mt0'>portfolio</div>
   
   
 
@@ -2572,7 +2946,7 @@ for a given currency and derivationMode (you can pass an Account because same sh
     </h3>
     
     
-      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/8cb6d36b66a20deadc966ff5862a1fba80135e13/src/types/index.js#L53-L56'>
+      <a class='fr fill-darken0 round round pad1x quiet h5' href='https://github.com/LedgerHQ/ledger-live-common/blob/297bf3a1beb322e0392cab28d9a4f84bd13c4538/src/types/index.js#L57-L60'>
       <span>src/types/index.js</span>
       </a>
     
