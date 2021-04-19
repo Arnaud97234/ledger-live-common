@@ -7,6 +7,7 @@ import balanceHistory from "./commands/balanceHistory";
 import bot from "./commands/bot";
 import botPortfolio from "./commands/botPortfolio";
 import broadcast from "./commands/broadcast";
+import checkExplorerSync from "./commands/checkExplorerSync";
 import cleanSpeculos from "./commands/cleanSpeculos";
 import countervalues from "./commands/countervalues";
 import derivation from "./commands/derivation";
@@ -58,6 +59,7 @@ export default {
   bot,
   botPortfolio,
   broadcast,
+  checkExplorerSync,
   cleanSpeculos,
   countervalues,
   derivation,
