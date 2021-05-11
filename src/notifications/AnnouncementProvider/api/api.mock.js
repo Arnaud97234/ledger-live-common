@@ -43,7 +43,7 @@ const announcementsPool: RawAnnouncement[] = [
     contextual: [],
     languages: ["en"],
     published_at: "2019-10-31T00:00:00.000Z",
-    expired_at: "2021-04-06T00:00:00.000Z",
+    expired_at: "",
   },
   {
     uuid: "announcement-id-c",
@@ -72,7 +72,7 @@ const announcementsPool: RawAnnouncement[] = [
     priority: 1,
     contextual: ["send"],
     published_at: "2019-10-31T00:00:00.000Z",
-    expired_at: "2021-05-06T00:00:00.000Z",
+    expired_at: "",
     currencies: ["bitcoin"],
   },
 ];
